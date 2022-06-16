@@ -7,7 +7,6 @@ function Detail() {
   let { dcm } = useParams();
   useEffect(() => {
     console.log(dcm);
-    // lấy id từ dcm tìm trong Data và set vào state in ra HTML
   }, [dcm]);
 
   return (
